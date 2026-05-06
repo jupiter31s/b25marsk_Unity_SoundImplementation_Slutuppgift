@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     [System.Serializable]
     public struct Emitters
     {
+        public StudioEventEmitter ambiance;
         public StudioEventEmitter musicMenu;
         public StudioEventEmitter music;
         public StudioEventEmitter music02;

@@ -282,6 +282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7801377828305244300}
   - {fileID: 7188620585383569979}
   - {fileID: 7343739692746708910}
   - {fileID: 2799588366621092780}
@@ -304,12 +305,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   combatTimerLength: 3
   eventEmitters:
+    ambiance: {fileID: 2923972967002997682}
     musicMenu: {fileID: 110158806593295546}
     music: {fileID: 5158617837186310920}
     music02: {fileID: 8933774022352548864}
     musicBoss: {fileID: 3257842776572977270}
     musicPause: {fileID: 4860983653683116548}
-    ambiance: {fileID: 0}
     snapShotPause: {fileID: 7484880938483047845}
   playerFootsteps:
     Guid:
@@ -333,13 +334,6 @@ MonoBehaviour:
       Data4: 0
     Path: 
   playerAttackMelee:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  playerAttackRanged:
     Guid:
       Data1: 0
       Data2: 0
@@ -538,6 +532,69 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!1 &5595847374053610264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7801377828305244300}
+  - component: {fileID: 2923972967002997682}
+  m_Layer: 0
+  m_Name: Ambience
+  m_TagString: Ambiance
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7801377828305244300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595847374053610264}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4318290237554146966}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2923972967002997682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595847374053610264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1769871021
+      Data2: 1176956399
+      Data3: -794893181
+      Data4: -1192560062
+    Path: event:/Sound Design/AMB/Ambience/Ambience Outside
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &6059229550128967253
 GameObject:
   m_ObjectHideFlags: 0
