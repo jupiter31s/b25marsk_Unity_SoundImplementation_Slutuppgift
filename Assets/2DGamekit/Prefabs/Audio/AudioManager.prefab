@@ -314,11 +314,11 @@ MonoBehaviour:
     snapShotPause: {fileID: 7484880938483047845}
   playerFootsteps:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2089832861
+      Data2: 1138495300
+      Data3: 119116956
+      Data4: -1622567544
+    Path: event:/Sound Design/SFX/Player/player_footstep
   playerJump:
     Guid:
       Data1: 0
@@ -391,11 +391,11 @@ MonoBehaviour:
     Path: 
   acidSplash:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: acid_splash
+      Data1: 282701124
+      Data2: 1284471500
+      Data3: 289776777
+      Data4: 525020352
+    Path: event:/Sound Design/AMB/Acid Pool/acid_splash
   boxPush:
     Guid:
       Data1: 0
@@ -542,6 +542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7801377828305244300}
   - component: {fileID: 2923972967002997682}
+  - component: {fileID: 1717987086170322058}
   m_Layer: 0
   m_Name: Ambience
   m_TagString: Ambiance
@@ -595,6 +596,19 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &1717987086170322058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595847374053610264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e964efe0e8cd4ddba522c37df205aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioEmitterPosition
+  tagName: Player
 --- !u!1 &6059229550128967253
 GameObject:
   m_ObjectHideFlags: 0
