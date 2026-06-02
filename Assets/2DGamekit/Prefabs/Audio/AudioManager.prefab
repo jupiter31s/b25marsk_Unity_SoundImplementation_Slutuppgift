@@ -321,74 +321,81 @@ MonoBehaviour:
     Path: event:/Sound Design/SFX/Player/player_footstep
   playerJump:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1788867065
+      Data2: 1152112259
+      Data3: -1335879779
+      Data4: 1415423226
+    Path: event:/Sound Design/SFX/Player/player_jump
   playerLand:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -424118204
+      Data2: 1302688795
+      Data3: -1719760450
+      Data4: 1608440899
+    Path: event:/Sound Design/SFX/Player/player_land
   playerAttackMelee:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 261738095
+      Data2: 1125534560
+      Data3: 1594212006
+      Data4: -825857739
+    Path: event:/Sound Design/SFX/Player/player_weapon_melee
+  playerAttackRanged:
+    Guid:
+      Data1: 1079139407
+      Data2: 1328698770
+      Data3: 861261445
+      Data4: 837359048
+    Path: event:/Sound Design/SFX/Player/player_weapon_ranged
   playerHurt:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -328711685
+      Data2: 1225410982
+      Data3: -1571267684
+      Data4: -200958701
+    Path: event:/Sound Design/SFX/Player/player_hurt
   wallDestroy:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2066788686
+      Data2: 1243355417
+      Data3: 1290945949
+      Data4: 991837095
+    Path: event:/Sound Design/SFX/Interactable/3D interactable/wall_destruct
   pickupHealth:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1957931535
+      Data2: 1082652016
+      Data3: -2096936533
+      Data4: -1289586826
+    Path: event:/Sound Design/SFX/Interactable/2D interactable/pick-up/pickup_health
   doorSwitch:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 867905088
+      Data2: 1103334780
+      Data3: 794165397
+      Data4: -186015430
+    Path: event:/Sound Design/SFX/Interactable/3D interactable/door_switch
   doorOpen:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1648240752
+      Data2: 1304370282
+      Data3: 1986572711
+      Data4: -1789696699
+    Path: event:/Sound Design/SFX/Interactable/3D interactable/door_open
   pickupKey:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1475238411
+      Data2: 1080183615
+      Data3: -540406098
+      Data4: -2061109260
+    Path: event:/Sound Design/SFX/Interactable/2D interactable/pick-up/pickup_key
   pressurePad:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1655639373
+      Data2: 1215085061
+      Data3: 51669391
+      Data4: -1387584888
+    Path: event:/Sound Design/SFX/Interactable/2D interactable/pressure_pad
   acidSplash:
     Guid:
       Data1: 282701124
@@ -398,53 +405,53 @@ MonoBehaviour:
     Path: event:/Sound Design/AMB/Acid Pool/acid_splash
   boxPush:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1190675116
+      Data2: 1187320603
+      Data3: 324082304
+      Data4: 953485989
+    Path: event:/Sound Design/SFX/Interactable/2D interactable/box_push
   menuClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1455911925
+      Data2: 1080185875
+      Data3: 150741144
+      Data4: 165824416
+    Path: event:/Sound Design/SFX/UI/menu_button_click
   menuStartGame:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -248732128
+      Data2: 1239982667
+      Data3: 1532142765
+      Data4: 1693983841
+    Path: event:/Sound Design/SFX/UI/menu_button_start_click
   enemyFootstep:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1932552878
+      Data2: 1193211026
+      Data3: -636428375
+      Data4: 470260822
+    Path: event:/Sound Design/SFX/Enemy/Chomper/enemy_walk
   enemyRanged:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1349445998
+      Data2: 1087119440
+      Data3: -1126955848
+      Data4: -980914507
+    Path: event:/Sound Design/SFX/Enemy/Spitter/enemy_attack_spit
   enemyMelee:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1781958911
+      Data2: 1230356072
+      Data3: 2083339139
+      Data4: -169180109
+    Path: event:/Sound Design/SFX/Enemy/Chomper/enemy_attack_bite
   enemyDeath:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -347927993
+      Data2: 1184096930
+      Data3: 1250427809
+      Data4: -633655322
+    Path: event:/Sound Design/SFX/Enemy/enemy_die
   stingerGameOver:
     Guid:
       Data1: 715162006
@@ -544,7 +551,7 @@ GameObject:
   - component: {fileID: 2923972967002997682}
   - component: {fileID: 1717987086170322058}
   m_Layer: 0
-  m_Name: Ambience
+  m_Name: Ambiance
   m_TagString: Ambiance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,11 +587,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1769871021
-      Data2: 1176956399
-      Data3: -794893181
-      Data4: -1192560062
-    Path: event:/Sound Design/AMB/Ambience/Ambience Outside
+      Data1: -554354605
+      Data2: 1255733853
+      Data3: -1792403783
+      Data4: 2032019316
+    Path: event:/Sound Design/AMB/Ambience/AMBience Outside
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
