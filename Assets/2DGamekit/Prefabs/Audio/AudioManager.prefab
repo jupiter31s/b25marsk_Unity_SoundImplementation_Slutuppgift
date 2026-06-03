@@ -409,7 +409,7 @@ MonoBehaviour:
       Data2: 1187320603
       Data3: 324082304
       Data4: 953485989
-    Path: event:/Sound Design/SFX/Interactable/2D interactable/box_push
+    Path: event:/Sound Design/SFX/Interactable/2D interactable/box_move
   menuClick:
     Guid:
       Data1: -1455911925
