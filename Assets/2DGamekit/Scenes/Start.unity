@@ -28997,6 +28997,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2923972967002997682, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Sound Design/AMB/Ambience/AMB MANAGER
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923972967002997682, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 368504834
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923972967002997682, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1135595611
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923972967002997682, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 422801062
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923972967002997682, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1251926318
+      objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146964, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: m_Name
