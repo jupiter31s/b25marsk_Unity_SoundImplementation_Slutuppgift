@@ -587,11 +587,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -554354605
-      Data2: 1255733853
-      Data3: -1792403783
-      Data4: 2032019316
-    Path: event:/Sound Design/AMB/Ambience/AMBience Outside
+      Data1: 368504834
+      Data2: 1135595611
+      Data3: 422801062
+      Data4: 1251926318
+    Path: event:/Sound Design/AMB/Ambience/AMB MANAGER
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
